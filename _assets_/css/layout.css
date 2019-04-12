@@ -313,6 +313,17 @@ nav,
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
 
+	/*--------------- #nav ---------------*/
+	#nav li:hover ul {display: block;}
+	#nav ul {text-align: left;}
+	#nav>li>ul {position: absolute; top: 100%; left: 215px; right: 17px; background-color: #215fa8; column-count: 4; column-gap: 36px; padding: 22px 30px 19px;}
+	#nav ul li {display: block}
+	#nav ul li a,
+	#nav ul li span {font-size: 16px; line-height: 30px; font-weight: 700; letter-spacing: 0; color: #fff; text-transform: capitalize; padding: 0;}
+	#nav ul ul {margin-top: 1px;}
+	#nav ul ul li a,
+	#nav ul ul li span {font-size: 13px; line-height: 30px; font-weight: 500;}
+
 }
 
 @media only screen and (max-width:991px) {
