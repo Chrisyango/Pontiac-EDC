@@ -219,7 +219,18 @@ nav,
 #search button {position: absolute; top: 0; right: 0; padding: 0; width: 60px; height: 40px; line-height: 40px; border-radius: 0 4px 4px 0; background-color: #c49f44;}
 
 /*--------------- #slider ---------------*/
-#slider {height: 660px; margin-top: 142px;}
+#slider {height: 700px; margin-top: 122px;}
+
+/*--------------- #quick-links ---------------*/
+#quick-links {position: relative; margin-top: -113px; z-index: 51;}
+#quick-links .container {width: 1238px;}
+#quick-links:before {content: ''; position: absolute; top: -80px; left: 0; right: 0; bottom: 0; background-image: linear-gradient(transparent, #000); opacity: 0.8;}
+#quick-links .owl-prev,
+#quick-links .owl-next {position: absolute; top: 50%; left: -62px; transform: translateY(-95%); font-size: 34px; color: #fff;}
+#quick-links .owl-next {left: unset; right: -58px;}
+a.quick-link {display: block; text-align: center; text-decoration: none;}
+a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #fff; text-transform: uppercase; padding: 0 70px; margin: 14px 0 26px;}
+.quick-link-icon {width: 41px; height: 37px; margin: 0 auto;}
 
 /* -----------------------------------------
 
