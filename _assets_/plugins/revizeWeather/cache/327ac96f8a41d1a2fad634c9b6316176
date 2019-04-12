@@ -1,0 +1,2 @@
+1555094355
+{"coord":{"lon":-83.22,"lat":42.63},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":60.51,"pressure":1007,"humidity":55,"temp_min":57,"temp_max":63},"visibility":16093,"wind":{"speed":21.92,"deg":210,"gust":12.3},"clouds":{"all":75},"dt":1555094105,"sys":{"type":1,"id":6182,"message":0.0057,"country":"US","sunrise":1555066596,"sunset":1555114221},"id":420016112,"name":"Warren","cod":200}
