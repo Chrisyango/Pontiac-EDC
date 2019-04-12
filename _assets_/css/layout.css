@@ -323,6 +323,8 @@ nav,
 	#nav ul ul {margin-top: 1px;}
 	#nav ul ul li a,
 	#nav ul ul li span {font-size: 13px; line-height: 30px; font-weight: 500;}
+	a.mega {position: relative;}
+	#nav li:hover>a.mega:after {content: ''; position: absolute; left: 32px; right: 1px; bottom: 0; height: 7px; background-color: #c49f44;}
 
 }
 
