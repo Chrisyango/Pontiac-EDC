@@ -232,6 +232,18 @@ a.quick-link {display: block; text-align: center; text-decoration: none;}
 a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #fff; text-transform: uppercase; padding: 0 70px; margin: 14px 0 26px;}
 .quick-link-icon {width: 41px; height: 37px; margin: 0 auto;}
 
+/*--------------- #content ---------------*/
+#why {position: relative; padding: 71px 0; font-size: 0;}
+#why-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;}
+#why-bg:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #ebebeb; opacity: 0.93;}
+#why h2 {font-family: 'Playfair Display'; font-size: 38px; line-height: 18px; font-weight: 700; color:#215fa8; text-transform: capitalize; margin-left: -6px; text-align: center;}
+#why-info-wrapper {margin-top: 98px;}
+.why-info-container {display: inline-block; width: 20%; text-align: center;}
+.why-info-icon {position: relative; width: 60px; height: 48px; margin: 0 auto;}
+.why-info-icon:before {content: ''; position: absolute; top: -31px; left: -25px; right: -25px; bottom: -31px; background-color: #215fa8; z-index: -1; border-radius: 50%;}
+.why-info-container h3 {font-size: 16px; line-height: 40px; font-weight: 700; color: #215fa8; text-transform: uppercase; margin-top: 38px;}
+.why-info {display: none;}
+
 /* -----------------------------------------
 
 #inner
