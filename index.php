@@ -6,14 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>Pontiac, MI, EDC</title>
+	<title>Pontiac, MI EDC</title>
 	<meta name="description" content="">
 	<meta name="robots" content="index, follow">
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Raleway:500,600,700,900|Roboto:700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Raleway:400,500,600,700,900|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -49,8 +49,8 @@
 			<div tabindex="0" id="nav-toggle" class="fa fa-bars"></div>	
 		</div><!-- /#toggles -->
 
-		<div class="social-links hidden-sm hidden-xs">
-			<a href="./" class="fa fa-facebook"></a>
+		<div class="social-links hidden-sm hidden-xs fillLeft fillRight withPadding">
+			<a href="./" class="fa fa-facebook-square"></a>
 			<a href="./" class="fa fa-twitter"></a>
 			<a href="./" class="fa fa-instagram"></a>
 			<a href="./" class="fa fa-youtube"></a>
@@ -139,7 +139,7 @@
 
 <section id="slider">
 	<ul class="bxslider">
-		<li style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size:cover;"></li>
+		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;"></li>
 	</ul><!-- /.bxslider -->
 </section><!-- /#slider -->
 
