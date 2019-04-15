@@ -233,7 +233,7 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .quick-link-icon {width: 41px; height: 37px; margin: 0 auto;}
 
 /*--------------- #content ---------------*/
-#why {position: relative; padding: 71px 0; font-size: 0;}
+#why {position: relative; padding: 71px 0 39px; font-size: 0;}
 #why-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;}
 #why-bg:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #ebebeb; opacity: 0.93;}
 #why h2 {font-family: 'Playfair Display'; font-size: 38px; line-height: 18px; font-weight: 700; color:#215fa8; text-transform: capitalize; margin-left: -6px; text-align: center;}
@@ -246,6 +246,13 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .why-info:after {content: '\f0d7'; font-family: 'FontAwesome'; color: #fff; position: absolute; top: 100%; left: 50%; transform: translate(-52%, -40%); font-size: 20px; width: 100%;}
 .why-info h4 {font-size: 14px; line-height: 20px; font-weight: 700; color: #5b97c5; text-transform: uppercase; margin: 0 0 5px;}
 .why-info span {font-size: 12px; line-height: 16px; color: #1e1e1e;}
+
+#useful-links {background-color: #c49f44; padding: 51px 0 14px;}
+.useful-link {text-decoration: none; text-align: center; display: block; padding: 0 55px;}
+.useful-link-icon {width: 34px; height: 31px; margin: 0 auto;}
+.useful-link h3 {font-size: 16px; line-height: 20px; font-weight: 700; color: #fff; text-transform: uppercase; margin-top: 15px;}
+
+
 
 /* -----------------------------------------
 

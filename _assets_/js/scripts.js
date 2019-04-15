@@ -321,17 +321,39 @@
 				}
 			}
 		});
+
+		let usefulLinksCount = $('.useful-link').length;
+		const usefulLinksItem = function(num) {
+			return (usefulLinksCount >= num ? num : usefulLinksCount);
+		}
+		$("#useful-links-wrapper").owlCarousel({
+			loop: usefulLinksCount > 1 ? true : false,
+			responsiveClass: true,
+			nav: true,
+			autoHeight: true,
+			navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+			margin: 0,
+			responsive: {
+				0: {
+					items: usefulLinksItem(1),
+				},
+				500: {
+					items: usefulLinksItem(2),
+				},
+				800: {
+					items: usefulLinksItem(3),
+				},
+				1100: {
+					items: usefulLinksItem(4),
+				},
+				1400: {
+					items: usefulLinksItem(5),
+					loop: false,
+					nav: false
+				}
+			}
+		});
 	}
-
-	// Preloader
-	$window.load(function() {
-
-		setTimeout(function(){
-			$body.addClass('loaded');
-			 $('#loader-wrapper').fadeOut();
-		}, 600);
-
-	});
 
 	$window.ready(function(){
 

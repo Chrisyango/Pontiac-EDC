@@ -218,28 +218,30 @@
 		</section><!-- /#why -->
 
 		<section id="useful-links">
-			<div id="useful-links-wrapper" class="owl-carousel">
-				<a href="./" class="useful-link">
-					<div class="useful-link-icon" style="background:url('./_assets_/images/useful1.png') center no-repeat;background-size:cover;"></div>
-					<h3>available resources</h3>
-				</a><!-- /.useful=link -->
-				<a href="./" class="useful-link">
-					<div class="useful-link-icon" style="background:url('./_assets_/images/useful2.png') center no-repeat;background-size:cover;"></div>
-					<h3>economic data</h3>
-				</a><!-- /.useful=link -->
-				<a href="./" class="useful-link">
-					<div class="useful-link-icon" style="background:url('./_assets_/images/useful3.png') center no-repeat;background-size:cover;"></div>
-					<h3>find a site</h3>
-				</a><!-- /.useful=link -->
-				<a href="./" class="useful-link">
-					<div class="useful-link-icon" style="background:url('./_assets_/images/useful4.png') center no-repeat;background-size:cover;"></div>
-					<h3>top industries</h3>
-				</a><!-- /.useful=link -->
-				<a href="./" class="useful-link">
-					<div class="useful-link-icon" style="background:url('./_assets_/images/useful5.png') center no-repeat;background-size:cover;"></div>
-					<h3>quality of life</h3>
-				</a><!-- /.useful=link -->
-			</div><!-- /#useful-links-wrapper -->
+			<div class="container">
+				<div id="useful-links-wrapper" class="owl-carousel">
+					<a href="./" class="useful-link">
+						<div class="useful-link-icon" style="background:url('./_assets_/images/useful1.png') center no-repeat;background-size:cover;"></div>
+						<h3>available resources</h3>
+					</a><!-- /.useful=link -->
+					<a href="./" class="useful-link">
+						<div class="useful-link-icon" style="background:url('./_assets_/images/useful2.png') center no-repeat;background-size:cover;"></div>
+						<h3>economic data</h3>
+					</a><!-- /.useful=link -->
+					<a href="./" class="useful-link">
+						<div class="useful-link-icon" style="background:url('./_assets_/images/useful3.png') center no-repeat;background-size:cover;"></div>
+						<h3>find a site</h3>
+					</a><!-- /.useful=link -->
+					<a href="./" class="useful-link">
+						<div class="useful-link-icon" style="background:url('./_assets_/images/useful4.png') center no-repeat;background-size:cover;"></div>
+						<h3>top industries</h3>
+					</a><!-- /.useful=link -->
+					<a href="./" class="useful-link">
+						<div class="useful-link-icon" style="background:url('./_assets_/images/useful5.png') center no-repeat;background-size:cover;"></div>
+						<h3>quality of life</h3>
+					</a><!-- /.useful=link -->
+				</div><!-- /#useful-links-wrapper -->
+			</div><!-- /.container -->
 		</section><!-- /#useful-links -->
 
 		<section id="news-events-local">
