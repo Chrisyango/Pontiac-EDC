@@ -233,11 +233,13 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .quick-link-icon {width: 41px; height: 37px; margin: 0 auto;}
 
 /*--------------- #content ---------------*/
-#why {position: relative; padding: 71px 0 39px; font-size: 0;}
+#content h2 {font-family: 'Playfair Display'; font-size: 38px; font-weight: 700; color: #215fa8; text-transform: capitalize;}
+
+#why {position: relative; padding: 57px 0 39px; font-size: 0;}
 #why-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;}
 #why-bg:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #ebebeb; opacity: 0.93;}
-#why h2 {font-family: 'Playfair Display'; font-size: 38px; line-height: 18px; font-weight: 700; color:#215fa8; text-transform: capitalize; margin-left: -6px; text-align: center;}
-#why-info-wrapper {margin-top: 67px;}
+#why h2 {margin-left: -6px; text-align: center;}
+#why-info-wrapper {margin-top: 54px;}
 .why-info-container {position: relative; display: inline-block; width: 20%; text-align: center;}
 .why-info-icon {position: relative; width: 60px; height: 48px; margin: 31px auto;}
 .why-info-icon:before {content: ''; position: absolute; top: -31px; left: -25px; right: -25px; bottom: -31px; background-color: #215fa8; z-index: -1; border-radius: 50%;}
@@ -252,7 +254,18 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .useful-link-icon {width: 34px; height: 31px; margin: 0 auto;}
 .useful-link h3 {font-size: 16px; line-height: 20px; font-weight: 700; color: #fff; text-transform: uppercase; margin-top: 15px;}
 
+#news-events-local {padding-top: 67px;}
+#news-events-local h2 {float: left; margin: 0;}
+#news-events-local a.btn {float: right; margin-top: 13px; height: 30px; line-height: 30px; padding: 0; border-radius: 4px; background-color:#c49f44;}
 
+#news h2 {margin-left: -2px;}
+#news a.btn {width: 130px;}
+.news-link-wrapper {margin-top: 28px;}
+.news-link {position: relative; display: block; text-decoration: none; border-radius: 4px; padding: 34px 41px 69px; margin-bottom: 30px;}
+.news-link-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; border-radius: 4px;}
+.news-link-bg:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #1b1f3a; opacity: 0.9; border-radius: 4px;}
+.news-link-info span {font-family: 'Playfair Display'; font-size: 12px; line-height: 22px; color: #5b97c5; text-transform: capitalize; margin: 10px -1px 5px; display: block;}
+.news-link-info h3 {font-size: 18px; line-height: 26px; font-weight: 700; color: #fff; text-transform: capitalize; margin: 0;}
 
 /* -----------------------------------------
 
