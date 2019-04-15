@@ -254,7 +254,7 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .useful-link-icon {width: 34px; height: 31px; margin: 0 auto;}
 .useful-link h3 {font-size: 16px; line-height: 20px; font-weight: 700; color: #fff; text-transform: uppercase; margin-top: 15px;}
 
-#news-events-local {padding-top: 67px;}
+#news-events-local {padding: 67px 0 50px;}
 #news-events-local h2 {float: left; margin: 0;}
 #news-events-local a.btn {float: right; margin-top: 13px; height: 30px; line-height: 30px; padding: 0; border-radius: 4px; background-color:#c49f44;}
 
@@ -280,6 +280,15 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 #local-business h3 {font-size: 18px; line-height: 26px; font-weight: 700; color: #fff; text-transform: capitalize; margin: 19px 0 13px;}
 #local-business p {font-size: 14px; line-height: 21px; color: #fff; margin-bottom: 15px;}
 #local-business a.btn {float: none; width: 147px;}
+
+/*--------------- footer ---------------*/
+footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
+#revize-logo span {font-size: 14px; line-height: 26px; font-weight: 700;}
+#revize-logo span:first-of-type {float: left;}
+#revize-logo span:last-of-type {float: right;}
+#revize-logo span:last-of-type a:first-of-type {font-family: 'Roboto'; text-transform: capitalize; text-decoration: underline; color: #c49f44; margin: 0;}
+#revize-logo span:last-of-type a:last-of-type {position: relative; color:#fff; text-transform: capitalize; text-decoration: none; margin-left: 15px;}
+#revize-logo span:last-of-type a:last-of-type:before {content: ''; position: absolute; top: 2px; left: -10px; bottom: 1px; width: 2px; background-color: #fff;}
 
 /* -----------------------------------------
 
