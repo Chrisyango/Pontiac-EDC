@@ -326,6 +326,38 @@
 			}
 		});
 
+		let whyInfoCount = $('.why-info-container').length;
+		const whyInfoItem = function(num) {
+			return (whyInfoCount >= num ? num : whyInfoCount);
+		}
+		$("#why-info-wrapper").owlCarousel({
+			loop: whyInfoCount > 1 ? true : false,
+			responsiveClass: true,
+			nav: true,
+			navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+			margin: 15,
+			responsive: {
+				0: {
+					items: whyInfoItem(1),
+				},
+				550: {
+					items: whyInfoItem(2),
+				},
+				768: {
+					items: whyInfoItem(3),
+				},
+				1000: {
+					items: whyInfoItem(4),
+				},
+				1170: {
+					items: whyInfoItem(5),
+					loop: false,
+					nav: false,
+					margin: 0
+				}
+			}
+		});
+
 		let usefulLinksCount = $('.useful-link').length;
 		const usefulLinksItem = function(num) {
 			return (usefulLinksCount >= num ? num : usefulLinksCount);
@@ -340,16 +372,16 @@
 				0: {
 					items: usefulLinksItem(1),
 				},
-				500: {
+				480: {
 					items: usefulLinksItem(2),
 				},
-				800: {
+				768: {
 					items: usefulLinksItem(3),
 				},
-				1100: {
+				1000: {
 					items: usefulLinksItem(4),
 				},
-				1400: {
+				1170: {
 					items: usefulLinksItem(5),
 					loop: false,
 					nav: false
@@ -386,7 +418,11 @@
 			$('.why-info').each(function() {
 				let whyInfoHeight = $(this).outerHeight() + 10;
 				$(this).css('top', '-' + whyInfoHeight + 'px');
-			})	
+			});
+			$('.why-info-container').each(function() {
+				let whyInfoHeight = $('.why-info', this).outerHeight() + 10;
+				$(this).css('margin-top', whyInfoHeight + 'px')
+			});
 		}
 
 		// Fill sides script

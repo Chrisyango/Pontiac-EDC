@@ -172,46 +172,46 @@
 			<div id="why-bg" style="background:url('./_assets_/images/why-bg.jpg') center no-repeat;background-size:cover;"></div>
 			<div class="container">
 				<h2>why pontiac</h2>
-				<div id="why-info-wrapper">
+				<div id="why-info-wrapper" class="owl-carousel">
 					<div class="why-info-container">
-						<div class="why-info">
-							<h4>Population of 59,000</h4>
-							<span>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
-						</div><!-- /.why-info -->
 						<div class="why-info-icon" style="background:url('./_assets_/images/why1.png') center no-repeat;background-size:cover;"></div>
 						<h3>demographics</h3>
-					</div><!-- /.why-info-container -->
-					<div class="why-info-container">
 						<div class="why-info">
 							<h4>Population of 59,000</h4>
 							<span>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
 						</div><!-- /.why-info -->
+					</div><!-- /.why-info-container -->
+					<div class="why-info-container">
 						<div class="why-info-icon" style="background:url('./_assets_/images/why2.png') center no-repeat;background-size:cover;"></div>
 						<h3>housing</h3>
-					</div><!-- /.why-info-container -->
-					<div class="why-info-container">
 						<div class="why-info">
 							<h4>Population of 59,000</h4>
 							<span>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
 						</div><!-- /.why-info -->
+					</div><!-- /.why-info-container -->
+					<div class="why-info-container">
 						<div class="why-info-icon" style="background:url('./_assets_/images/why3.png') center no-repeat;background-size:cover;"></div>
 						<h3>retailers</h3>
-					</div><!-- /.why-info-container -->
-					<div class="why-info-container">
 						<div class="why-info">
 							<h4>Population of 59,000</h4>
 							<span>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
 						</div><!-- /.why-info -->
+					</div><!-- /.why-info-container -->
+					<div class="why-info-container">
 						<div class="why-info-icon" style="background:url('./_assets_/images/why4.png') center no-repeat;background-size:cover;"></div>
 						<h3>starting a business</h3>
-					</div><!-- /.why-info-container -->
-					<div class="why-info-container">
 						<div class="why-info">
 							<h4>Population of 59,000</h4>
 							<span>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
 						</div><!-- /.why-info -->
+					</div><!-- /.why-info-container -->
+					<div class="why-info-container">
 						<div class="why-info-icon" style="background:url('./_assets_/images/why5.png') center no-repeat;background-size:cover;"></div>
 						<h3>properties</h3>
+						<div class="why-info">
+							<h4>Population of 59,000</h4>
+							<span>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
+						</div><!-- /.why-info -->
 					</div><!-- /.why-info-container -->
 				</div><!-- /#why-links -->
 			</div><!-- /.container -->
