@@ -310,10 +310,10 @@
 				0: {
 					items: quickLinksItem(1),
 				},
-				500: {
+				480: {
 					items: quickLinksItem(2),
 				},
-				800: {
+				768: {
 					items: quickLinksItem(3),
 				},
 				1100: {
