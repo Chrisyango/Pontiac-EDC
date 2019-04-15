@@ -64,7 +64,7 @@
 					<a href="./">site selector</a>
 					<ul>
 						<li>
-							<span>section header</span>
+							<a href="./">section header</a>
 							<ul>
 								<li><a href="./">sem egestas mollis porta fusce</a></li>
 								<li><a href="./">adipiscing purus ultricies</a></li>
@@ -78,7 +78,7 @@
 							</ul>
 						</li>
 						<li>
-							<span>section header</span>
+							<a href="./">section header</a>
 							<ul>
 								<li><a href="./">sem egestas mollis porta fusce</a></li>
 								<li><a href="./">adipiscing purus ultricies</a></li>
@@ -92,7 +92,7 @@
 							</ul>
 						</li>
 						<li>
-							<span>section header</span>
+							<a href="./">section header</a>
 							<ul>
 								<li><a href="./">sem egestas mollis porta fusce</a></li>
 								<li><a href="./">adipiscing purus ultricies</a></li>
@@ -106,7 +106,7 @@
 							</ul>
 						</li>
 						<li>
-							<span>section header</span>
+							<a href="./">section header</a>
 							<ul>
 								<li><a href="./">sem egestas mollis porta fusce</a></li>
 								<li><a href="./">adipiscing purus ultricies</a></li>
@@ -254,14 +254,14 @@
 						</div><!-- /.clearfix -->
 						<div id="news-links" class="owl-carousel">
 							<div class="news-link-wrapper">
-								<a class="news-link">
+								<a href="./" class="news-link">
 									<div class="news-link-bg" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
 									<div class="news-link-info">
 										<span>march 31st, 2017</span>
 										<h3>news post title cursus dapibus ipsum sit inceptos</h3>
 									</div><!-- /.news-link-info -->
 								</a><!-- /.news-link -->
-								<a class="news-link">
+								<a href="./" class="news-link">
 									<div class="news-link-bg" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
 									<div class="news-link-info">
 										<span>april 9th, 2017</span>

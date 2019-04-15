@@ -59,6 +59,11 @@
 		$(this).toggleClass('fa-search fa-close');
 	});
 
+	$('#search-toggle-mobile').on('click keypress',function(e){
+		$('#search').stop().slideToggle(200);
+		$(this).toggleClass('fa-search fa-close');
+	});
+
 	// Navigation Toggle
 	$("#nav-toggle").on("click keypress", function(){
 		$("#nav").stop().slideToggle();
@@ -299,7 +304,6 @@
 			loop: quickLinksCount > 1 ? true : false,
 			responsiveClass: true,
 			nav: true,
-			autoHeight: true,
 			navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
 			margin: 0,
 			responsive: {
@@ -330,7 +334,6 @@
 			loop: usefulLinksCount > 1 ? true : false,
 			responsiveClass: true,
 			nav: true,
-			autoHeight: true,
 			navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
 			margin: 0,
 			responsive: {
@@ -361,7 +364,6 @@
 		$("#news-links").owlCarousel({
 			loop: newsLinksCount > 1 ? true : false,
 			nav: false,
-			autoHeight: true,
 			navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
 			margin: 0,
 			items: 1
