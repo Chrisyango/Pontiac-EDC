@@ -425,6 +425,11 @@
 			});
 		}
 
+		if ($('#side-content').length){
+			$('main').css('position','relative');
+			$('<div id="side-bg" class="hidden-sm hidden-xs"></div>').prependTo('main');
+		}
+
 		// Fill sides script
 		function fillSide(){
 			var windowWidth = $('body').outerWidth();
@@ -446,6 +451,7 @@
 					'padding-right': pixelValue
 			});
 			
+			$('#side-bg').width($('#side-content').outerWidth());
 		}
 		fillSide();
 		$window.resize(fillSide);

@@ -302,10 +302,18 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 #inner
 
 -----------------------------------------*/
+#freeform #slider {height: 300px;}
+#freeform .bxslider li:after {display: none;}
+#side-bg {position: absolute; top: 0; left: 0; bottom: 0; background-color: #eef4f9;}
+
+/*--------------- #flyout ---------------*/
+#side-content {background-color: #eef4f9; padding-top: 48px;}
+#flyout-wrap {margin-left: -85px;}
+#flyout-header {font-size: 22px; line-height: 21px; font-weight: 700; color: #1b1f3a; text-transform: uppercase; display: block; margin-bottom: 17px;}
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
+#flyout span{font-size: 14px; line-height: 40px; color: #215fa8; text-transform: capitalize; text-decoration:none;padding:0;display:block;}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
@@ -517,8 +525,10 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
 	/*--------------- #nav ---------------*/
+	#search-toggle-mobile,
+	#nav-toggle {margin-top: 20px;}
 	#logo {width: 220px;}
-	nav {margin: 15px 0;}
+	nav {margin: 20px 0 15px;}
 
 	/*--------------- #quick-links ---------------*/
 	a.quick-link h3 {padding: 0 20px;}

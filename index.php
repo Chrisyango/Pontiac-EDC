@@ -370,18 +370,11 @@
 </div><!-- /.modal -->
 <!-- Share widget make into an include file -->
 
-
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/twitter/js/jquery.tweet.min.js"></script>
-<script src="_assets_/plugins/instafeed/instafeed.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
-<script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-<script src="_assets_/plugins/waypoints/waypoints.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 
 </body>
