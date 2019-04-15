@@ -372,14 +372,21 @@
 
 	$window.ready(function(){
 
-		// Why Section Fade
+		// Why Section
 		if ($('#why').length) {
+			// Why Info Fade
 			$('.why-info-container').hover(function() {
 				$('.why-info', this).fadeIn(300);
 			},
 			function() {
 				$('.why-info', this).fadeOut(300);
 			});
+
+			// Why Info Height
+			$('.why-info').each(function() {
+				let whyInfoHeight = $(this).outerHeight() + 10;
+				$(this).css('top', '-' + whyInfoHeight + 'px');
+			})	
 		}
 
 		// Fill sides script
