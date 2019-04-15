@@ -446,7 +446,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
-	.floating-share-btn{top:unset;bottom:0;padding:10.5px;font-size:11px}
+	.floating-share-btn{top:unset;bottom:82px;padding:10.5px;font-size:11px}
 
 	/*--------------- #nav ---------------*/
 	#search-toggle-mobile,
@@ -525,6 +525,12 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 
 	/*--------------- #content ---------------*/
 	.why-info-container {width: 100%;}
+
+	/*--------------- footer ---------------*/
+	footer {padding: 15px 0;}
+	#revize-logo span {display: block; font-size: 12px;}
+	#revize-logo span:first-of-type,
+	#revize-logo span:last-of-type {float: none;}
 
 }
 
