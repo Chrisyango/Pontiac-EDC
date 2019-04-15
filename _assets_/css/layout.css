@@ -499,6 +499,10 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	.why-info {border-radius: 0 0 4px 4px;}
 
 	#useful-links-wrapper {padding: 0 45px;}
+
+	#events {padding: 0 15px; margin-top: 50px;}
+	#local-business {margin-top: 50px;}
+	#local-business-wrapper {padding: 50px 20px;}
 	
 }
 
