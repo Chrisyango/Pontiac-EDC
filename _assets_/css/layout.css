@@ -254,6 +254,9 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .why-info span {font-size: 12px; line-height: 16px; color: #1e1e1e;}
 
 #useful-links {background-color: #c49f44; padding: 51px 0 14px;}
+#useful-links .owl-prev,
+#useful-links .owl-next {position: absolute; top: 50%; left: 0; transform: translateY(-75%); font-size: 34px;}
+#useful-links .owl-next {left: unset; right: 0;}
 .useful-link {text-decoration: none!important; text-align: center; display: block; padding: 0 55px;}
 .useful-link-icon {width: 34px; height: 31px; margin: 0 auto;}
 .useful-link h3 {font-size: 16px; line-height: 20px; font-weight: 700; color: #fff; text-transform: uppercase; margin-top: 15px;}
@@ -490,11 +493,13 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	a.quick-link h3 {padding: 0 30px;}
 	
 	#why-info-wrapper {padding: 0 45px;}
+	.why-info-icon {margin: 15px auto;}
 	.why-info-container {background-color: #215fa8; border-radius: 4px;}
-	.why-info-container h3 {color: #fff;}
+	.why-info-container h3 {color: #fff; margin: 15px 0;}
 	.why-info {border-radius: 0 0 4px 4px;}
-	
 
+	#useful-links-wrapper {padding: 0 45px;}
+	
 }
 
 	/* All Mobile Sizes (devices and browser) */
