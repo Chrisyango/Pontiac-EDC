@@ -282,14 +282,17 @@
 						</div>
 					</section><!-- /#events -->
 
-					<section id="local-business" class="col-md-3" style="background:url('./_assets_/images/local-business.jpg') center no-repeat;background-size:cover;">
-						<div id="local-business-icon" style="background:url('./_assets_/images/local-business-icon.png') center no-repeat;background-size:cover;"></div>
-						<h3>local business directory</h3>
-						<p>
-							View all of the business Pontiac vhas to offer. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.
-						</p>
-						<a href="./" class="btn">view directory</a>
-					</section>
+					<section id="local-business" class="col-md-3">
+						<div id="local-business-wrapper">
+							<div id="local-business-bg" style="background:url('./_assets_/images/local-business.jpg') center no-repeat;background-size:cover;"></div>
+							<div id="local-business-icon" style="background:url('./_assets_/images/local-business-icon.png') center no-repeat;background-size:cover;"></div>
+							<h3>local business directory</h3>
+							<p>
+								View all of the business Pontiac has to offer. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.
+							</p>
+							<a href="./" class="btn">view directory</a>
+						</div><!-- /#local-business-wrapper -->	
+					</section><!-- /#local-business -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /#news-events -->

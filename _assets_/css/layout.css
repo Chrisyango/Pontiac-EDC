@@ -272,6 +272,15 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 #events a.btn {width: 140px;}
 #calendar {margin-top: 29px;}
 
+#local-business {padding: 13px 15px; border-radius: 4px;}
+#local-business-wrapper {position: relative; border-radius: 4px; text-align: center; padding: 106px 20px 107px;}
+#local-business-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; border-radius: 4px;}
+#local-business-bg:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #1b1f3a; opacity: 0.9; border-radius: 4px;}
+#local-business-icon {width: 53px; height: 61px; margin: 0 auto;}
+#local-business h3 {font-size: 18px; line-height: 26px; font-weight: 700; color: #fff; text-transform: capitalize; margin: 19px 0 13px;}
+#local-business p {font-size: 14px; line-height: 21px; color: #fff; margin-bottom: 15px;}
+#local-business a.btn {float: none; width: 147px;}
+
 /* -----------------------------------------
 
 #inner
