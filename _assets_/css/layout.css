@@ -267,6 +267,11 @@ a.quick-link h3 {font-size: 16px; line-height: 18px; font-weight: 700; color: #f
 .news-link-info span {font-family: 'Playfair Display'; font-size: 12px; line-height: 22px; color: #5b97c5; text-transform: capitalize; margin: 10px -1px 5px; display: block;}
 .news-link-info h3 {font-size: 18px; line-height: 26px; font-weight: 700; color: #fff; text-transform: capitalize; margin: 0;}
 
+#events {padding: 0 64px;}
+#events h2 {margin-left: -1px;}
+#events a.btn {width: 140px;}
+#calendar {margin-top: 29px;}
+
 /* -----------------------------------------
 
 #inner

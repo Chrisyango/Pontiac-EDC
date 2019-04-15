@@ -277,7 +277,9 @@
 							<h2>events</h2>
 							<a href="./" class="btn">see all events</a>
 						</div><!-- /.clearfix -->
-						<div><img src="./_assets_/images/events.png" alt="Events"></div>
+						<div id="calendar">
+							<img src="./_assets_/images/events.png" alt="Events">
+						</div>
 					</section><!-- /#events -->
 
 					<section id="local-business" class="col-md-3" style="background:url('./_assets_/images/local-business.jpg') center no-repeat;background-size:cover;">
