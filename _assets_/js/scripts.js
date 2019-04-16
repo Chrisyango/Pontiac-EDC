@@ -93,7 +93,7 @@
 	// $("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
 	// Menu Toggles
-	$("#nav >li").has("ul").find('a').addClass('mega')
+	$("#nav>li").has("ul").children('a').addClass('mega')
 	$("#nav >li>ul,#flyout >li>ul").addClass('first-level');
 	$("#nav  li ul ul").addClass('second-level');
 	$("#nav >li:has(ul)").find("a:first").append('<i class="fa fa-angle-down toggle" tabindex="0">');
