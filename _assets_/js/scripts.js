@@ -321,10 +321,10 @@
 		if ($('#why').length) {
 			// Why Info Fade
 			$('.why-info-container').hover(function() {
-				$('.why-info', this).stop().fadeIn(300);
+				$('.why-info').is(':hidden') ? $('.why-info', this).stop().fadeIn(300) : null
 			},
 			function() {
-				$('.why-info', this).stop().fadeOut(300);
+				$('.why-info').is(':hidden') ? $('.why-info', this).stop().fadeOut(300) : null
 			});
 
 			// Why Info Height
