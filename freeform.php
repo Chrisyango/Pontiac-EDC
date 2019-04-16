@@ -34,7 +34,7 @@
 
 	<div class="container">
 		<a href="./" id="logo" class="clearfix">
-			<img src="./_assets_/images/logo.png" alt="Logo">
+			<img src="./_assets_/images/inner-logo.png" alt="Logo">
 		</a><!-- /.logo -->
 
 		<div id="toggles" class="hidden-lg hidden-md">
