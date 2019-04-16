@@ -202,89 +202,6 @@
 	});
 	// end calendar resize handler
 
-	// revizeWeather
-	if( typeof $.fn.revizeWeather !== "undefined" ){
-		$.fn.revizeWeather({
-			zip: '48326',
-			city_name: '',
-			unit: 'f',
-			success: function(weather) {
-				var date = new Date();
-				date = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
-				var html = '<span>'+date+'</span> <span class="forecast">'+weather.temp+'&deg; '+weather.forecast+'</span>';
-				html += '<i class="'+weather.icon+'"></i>';
-
-				$("#weather").html(html);
-			},
-			error: function(error) {
-				// better to just hide the secion if there is an error
-				$('.weather').hide();
-				console.log(error);
-			}
-		});
-	}
-
-	// Mega Footer Toggle
-	$('.header-toggle').on('click keydown', function(e) {
-		if (e.keyCode === 13 || e.type === 'click') {
-			var inner = $(this).next('.inner-toggle');
-			if (inner.is(':hidden')) {
-				inner.slideDown('200');
-			} else {
-				inner.slideUp('200');
-			}
-		}
-	});
-
-	// Tabs
-	$('#tabs li a').on('click keypress', function(e) {
-		$('#tabs li, #tabs-content .current').removeClass('current').removeClass('fadeInLeft');
-		$(this).parent().addClass('current');
-
-		var currentTab = $(this).attr('href');
-		
-		e.preventDefault();
-		$(currentTab).addClass('current animated fadeInLeft');
-		$(currentTab).find('h2').focus();
-	})
-
-	// Twitter Feed
-	if(typeof $.fn.tweet !== "undefined"){
-		$("#twitterfeed").tweet({
-			modpath: '_assets_/plugins/twitter/',
-			username: "RevizeSoftware",
-			join_text: "auto",
-			avatar_size: 0,
-			count: 1,
-			auto_join_text_default: "",
-			auto_join_text_ed: "",
-			auto_join_text_ing: "",
-			auto_join_text_reply: "",
-			auto_join_text_url: "",
-			loading_text: "Loading Tweet..."
-		});
-	}
-
-	// Instafeed Feed
-	if(typeof(window.Instafeed) === "function"){
-		var userFeed = new Instafeed({
-			get: 'user',
-			resolution:'standard_resolution',
-			limit:9,
-			userId: 223202806,
-			accessToken: '303202123.f7e9b72.27c687fbd9c24ecbb29dc92951cdf724'
-		});
-		userFeed.run();
-	}
-
-	// Sticky
-	if(typeof $.fn.sticky !== "undefined"){
-		$("#sticky").sticky({
-			topSpacing:0
-		});
-	}
-
-
 	// bxSlider
 	if(typeof $.fn.bxSlider !== "undefined"){
 		$('.bxslider').bxSlider({
@@ -456,54 +373,6 @@
 		fillSide();
 		$window.resize(fillSide);
 
-		if ( typeof $.fn.sociafeed !== "undefined"){
-			$('.social-feed-container').socialfeed({
-				// Facebook
-				facebook:{
-					accounts: ['@facebook'],
-					limit: 2,
-					access_token: 'YOUR_FACEBOOK_ACCESS_TOKEN'
-				},
-
-				// Twitter
-				twitter:{
-					accounts: ['@spacex'],
-					limit: 2,
-					consumer_key: 'YOUR_CONSUMER_KEY',
-					consumer_secret: 'YOUR_CONSUMER_SECRET_KEY',
-					tweet_mode: 'compatibility'
-				},
-
-				// Instagram
-				instagram:{
-					accounts: ['&facebook'],
-					limit: 2,
-					access_token: 'YOUR_INSTAGRAM_ACCESS_TOKEN'
-				},
-
-				// General settings
-				length:45,
-				show_media:true,
-				media_min_width: 300,
-				update_period: 5000,
-				template: "_assets_/templates/template.html",
-				callback: function() {
-					console.log("All posts collected!");
-				}
-			});
-		}
-
-		// matchHeight
-		if(typeof $.fn.matchHeight !== "undefined"){
-			$('.equal').matchHeight({
-				//defaults
-				byRow: true,
-				property: 'height', // height or min-height
-				target: null,
-				remove: false
-			});
-		}
-
 		// Animations http://www.oxygenna.com/tutorials/scroll-animations-using-waypoints-js-animate-css
 		function onScrollInit( items, trigger ) {
 			items.each( function() {
@@ -612,21 +481,6 @@
 
 		};
 		$('.v-align').flexVerticalCenter();
-
-
-		// Remove matchHeight on document center pages
-		if($('#RZdocument_center').length){
-			$('.aside,.entry').matchHeight({remove:true});
-
-			if(window.matchMedia("(min-width: 992px)").matches){
-				setInterval(function(){
-					if($('.post').outerHeight() + 300 > $('.entry').outerHeight()){
-						$('.aside').css('height',$('.entry').outerHeight() + 'px');
-					}
-				}, 200);
-			}
-		}
-
 
 	}); // Ready
 
