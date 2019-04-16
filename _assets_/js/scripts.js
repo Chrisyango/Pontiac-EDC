@@ -160,10 +160,10 @@
 		flyoutwrap = $('#flyout-wrap');
 
 	if (flyout.text().length){
-		flyoutwrap.prepend('<div id="flyout-toggle" class="hidden-lg hidden-md"><i class="fa fa-bars"></i> Sub Menu</div>');
+		flyoutwrap.prepend('<div id="flyout-toggle" class="hidden-lg hidden-md" tabindex="0"><i class="fa fa-bars"></i> Sub Menu</div>');
 	}
 
-	$("#flyout-toggle").on("click", function(){
+	$("#flyout-toggle").on("click keypress", function(){
 		flyout.stop().slideToggle();
 		$(this).toggleClass("active");
 	});
