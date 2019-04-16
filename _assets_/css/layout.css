@@ -307,7 +307,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 #side-bg {position: absolute; top: 0; left: 0; bottom: 0; background-color: #eef4f9;}
 
 /*--------------- #flyout ---------------*/
-#side-content {background-color: #eef4f9; padding-top: 48px;}
+#side-content {background-color: #eef4f9; padding-top: 48px; padding-right: 15px;}
 #flyout-wrap {margin-left: -85px;}
 #flyout-header {font-size: 22px; line-height: 21px; font-weight: 700; color: #1b1f3a; text-transform: uppercase; display: block; margin-bottom: 17px;}
 #flyout{margin:0;padding:0}
@@ -325,7 +325,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 #breadcrumbs a{font-size: 12px; line-height: 18px; font-weight: 700; color: #215fa8; text-decoration:none}
 #breadcrumbs a:after {content: '\f0da'; font-family: 'FontAwesome'; margin: 0 3px;}
 
-#entry {padding: 45px 0 45px 45px; margin-right: -45px;}
+#entry {padding: 45px 0 21px 45px; margin-right: -45px;}
 #page-title {font-family: 'Playfair Display'; font-size: 38px; line-height: 18px; font-weight: 700; color: #215fa8; text-transform: capitalize; margin: 14px 1px 34px;}
 #post p {font-size: 14px; line-height: 21px; color: #1e1e1e; margin-bottom: 21px;}
 #post ul {margin: 0 0 24px 34px; padding: 0;}
@@ -409,6 +409,12 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#quick-links .owl-next {right: 0px;}
 	a.quick-link h3 {padding: 0 55px;}
 
+	/*--------------- #flyout ---------------*/
+	#flyout-wrap {margin: 0;}
+
+	/*--------------- inner ---------------*/
+	#entry {padding-left: 0; margin-right: 0;}
+
 }
 
 @media only screen and (max-width:1280px) {
@@ -473,7 +479,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#search-toggle-mobile,
 	#nav-toggle{display:inline-block;cursor:pointer;height:45px;width:45px;line-height:45px;text-align:center}
 	.down-arrow{display:none} /* if not hidden above */
-	nav {margin: 44px 0 15px;}
+	header nav {margin: 44px 0 15px;}
 	#nav{display:none;text-align: left;background-color: #215fa8;}
 	#nav li{float:none;display:block}
 	#nav li a,
@@ -492,10 +498,14 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#search input,
 	#search input::placeholder {font-size: 14px;}
 
+	/*--------------- #flyout ---------------*/
+	#side-content {margin-right: -15px; padding: 0 15px;}
+	#flyout-header {display: none;}
+	#flyout-toggle {padding: 15px 0;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
@@ -518,6 +528,9 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#events {padding: 0 15px; margin-top: 50px;}
 	#local-business {margin-top: 50px;}
 	#local-business-wrapper {padding: 50px 20px;}
+
+	/*--------------- inner ---------------*/
+	#entry {padding-top: 15px;}
 	
 }
 
