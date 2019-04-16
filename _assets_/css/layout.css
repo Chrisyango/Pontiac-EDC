@@ -315,10 +315,7 @@ footer{background-color:#3c6eaf;padding:36px 0 37px;color:#fff}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size:14px;line-height:40px;color:#215fa8;text-transform:capitalize;text-decoration:none;padding:0;display:block}
-#flyout ul{display:none;position:absolute;top:0;left:calc(100% + 15px);margin:0;padding:0;background:#1b1f3a;z-index:100}
-#flyout ul li{}
-#flyout ul a,
-#flyout ul span{font-size:13px;padding:5px 10px;width:180px;color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+#flyout ul{display:none;position:absolute;top:0;left:calc(100% + 15px);margin:0;padding:0;background:#1b1f3a;z-index:51}
 
 /*--------------- inner ---------------*/
 #breadcrumbs{margin-left:1px;font-size:13px;text-transform:uppercase}
@@ -402,32 +399,6 @@ footer{background-color:#3c6eaf;padding:36px 0 37px;color:#fff}
 
 -----------------------------------------*/
 
-@media only screen and (max-width:1440px){
-
-	/*--------------- #quick-links ---------------*/
-	#quick-links-wrapper{padding:0 30px}
-	#quick-links .owl-prev{left:0px}
-	#quick-links .owl-next{right:0px}
-	a.quick-link h3{padding:0 55px}
-
-	/*--------------- #flyout ---------------*/
-	#flyout-wrap{margin:0}
-
-	/*--------------- inner ---------------*/
-	#entry{padding-left:0;margin-right:0}
-
-}
-
-@media only screen and (max-width:1280px){
-
-	/*--------------- #nav ---------------*/
-	#nav li a,
-	#nav li span{font-size:16px;margin-left:15px}
-
-	/*--------------- #content ---------------*/
-	
-}
-
 @media only screen and (min-width:992px){
 
 	#nav .focused .toggle,#nav .focused .toggle2,#flyout .focused .toggle{display:inline-block;margin-left:8px}
@@ -453,6 +424,8 @@ footer{background-color:#3c6eaf;padding:36px 0 37px;color:#fff}
 
 	/*--------------- #flyout ---------------*/
 	#flyout li:hover > ul{display:block}
+	#flyout ul a,
+	#flyout ul span{font-size:13px;padding:5px 10px;width:180px;color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
 
 	/*--------------- #slider ---------------*/
 	#slider{margin-top:122px}
@@ -460,6 +433,38 @@ footer{background-color:#3c6eaf;padding:36px 0 37px;color:#fff}
 	/*--------------- #content ---------------*/
 	.why-info{display:none;width:220px;position:absolute;left:50%;transform:translateX(-50%);background-color:#fff;padding:14px 30px 15px;border-radius:4px;z-index:100}
 	.why-info:after{content:'\f0d7';font-family:'FontAwesome';color:#fff;position:absolute;top:100%;left:50%;transform:translate(-50%, -40%);font-size:20px;width:100%}
+
+}
+
+@media only screen and (max-width:1440px){
+
+	/*--------------- #quick-links ---------------*/
+	#quick-links-wrapper{padding:0 30px}
+	#quick-links .owl-prev{left:0px}
+	#quick-links .owl-next{right:0px}
+	a.quick-link h3{padding:0 55px}
+
+	/*--------------- #flyout ---------------*/
+	#flyout-wrap{margin:0}
+
+	/*--------------- inner ---------------*/
+	#entry{padding-left:0;margin-right:0}
+
+}
+
+@media only screen and (max-width:1280px){
+
+	/*--------------- #nav ---------------*/
+	#nav li a,
+	#nav li span{font-size:16px;margin-left:15px}
+	#nav>li>ul{left:0;right:0}
+
+	/*--------------- #flyout ---------------*/
+	#flyout-header{font-size:20px}
+	#flyout a,
+	#flyout span{font-size:13px}
+	#flyout ul a,
+	#flyout ul span{font-size:12px;width:160px}
 
 }
 
