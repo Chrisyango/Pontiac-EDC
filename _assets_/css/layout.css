@@ -523,6 +523,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	.why-info-container {background-color: #215fa8; border-radius: 4px;}
 	.why-info-container h3 {color: #fff; margin: 15px 0;}
 	.why-info {border-radius: 0 0 4px 4px;}
+	.why-info:after {display: none;}
 
 	#useful-links-wrapper {padding: 0 45px;}
 
@@ -531,7 +532,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#local-business-wrapper {padding: 50px 20px;}
 
 	/*--------------- inner ---------------*/
-	#entry {padding-top: 15px;}
+	#entry {padding-top: 30px;}
 	
 }
 
@@ -549,7 +550,7 @@ footer {background-color: #3c6eaf; padding: 36px 0 37px; color: #fff;}
 	#search-toggle-mobile,
 	#nav-toggle {margin-top: 20px;}
 	#logo {width: 220px;}
-	nav {margin: 20px 0 15px;}
+	header nav {margin: 20px 0 15px;}
 
 	/*--------------- #quick-links ---------------*/
 	a.quick-link h3 {padding: 0 20px;}

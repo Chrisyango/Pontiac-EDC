@@ -233,12 +233,8 @@
 				768: {
 					items: quickLinksItem(3),
 				},
-				1100: {
+				1130: {
 					items: quickLinksItem(4),
-				},
-				1400: {
-					items: quickLinksItem(5),
-					loop: false
 				}
 			}
 		});
