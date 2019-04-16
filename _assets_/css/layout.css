@@ -315,10 +315,10 @@ footer{background-color:#3c6eaf;padding:36px 0 37px;color:#fff}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size:14px;line-height:40px;color:#215fa8;text-transform:capitalize;text-decoration:none;padding:0;display:block}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout ul{display:none;position:absolute;top:0;left:calc(100% + 15px);margin:0;padding:0;background:#1b1f3a;z-index:100}
+#flyout ul li{}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
-#flyout li:hover > ul{display:block}
+#flyout ul span{font-size:13px;padding:5px 10px;width:180px;color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
 
 /*--------------- inner ---------------*/
 #breadcrumbs{margin-left:1px;font-size:13px;text-transform:uppercase}
@@ -449,7 +449,10 @@ footer{background-color:#3c6eaf;padding:36px 0 37px;color:#fff}
 	#nav ul ul li a,
 	#nav ul ul li span{font-size:13px;line-height:30px;font-weight:500}
 	a.mega{position:relative}
-	#nav li:hover>a.mega:after{content:'';position:absolute;left:32px;right:1px;bottom:0;height:7px;background-color:#c49f44}
+	#nav li:hover>a.mega:after{content:'';position:absolute;left:1px;right:1px;bottom:0;height:7px;background-color:#c49f44}
+
+	/*--------------- #flyout ---------------*/
+	#flyout li:hover > ul{display:block}
 
 	/*--------------- #slider ---------------*/
 	#slider{margin-top:122px}
